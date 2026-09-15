@@ -1,4 +1,4 @@
-<api type="debug" assembly-name="WordleCloneMAUI" mvid="2a5cd45f79c443c084d8683ebcc83e1d">
+<api type="debug" assembly-name="WordleCloneMAUI" mvid="02c585135cab4d0e897ebd5a2c31ec59">
   <java-to-managed>
     <entry java-name="crc647ca01a84fc880bfc/MainActivity" managed-name="WordleCloneMAUI.MainActivity, WordleCloneMAUI" managed-type-token-id="33554444" />
     <entry java-name="crc647ca01a84fc880bfc/MainApplication" managed-name="WordleCloneMAUI.MainApplication, WordleCloneMAUI" managed-type-token-id="33554445" />

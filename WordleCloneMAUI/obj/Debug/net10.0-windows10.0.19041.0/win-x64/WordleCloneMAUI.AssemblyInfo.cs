@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WordleCloneMAUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+34ab54bd8a3cb1660c4768331a154269cdeb108d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3d50c5d37ea66d9a4abbabcbeb19748953fd7264")]
 [assembly: System.Reflection.AssemblyProductAttribute("WordleCloneMAUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WordleCloneMAUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -25,13 +25,19 @@
             <summary>The backing field for <see cref="P:WordleCloneMAUI.ViewModel.GameViewModel.EnterCommand"/>.</summary>
         </member>
         <member name="P:WordleCloneMAUI.ViewModel.GameViewModel.EnterCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:WordleCloneMAUI.ViewModel.GameViewModel.Enter"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:WordleCloneMAUI.ViewModel.GameViewModel.Enter"/>.</summary>
         </member>
         <member name="F:WordleCloneMAUI.ViewModel.GameViewModel.enterLetterCommand">
             <summary>The backing field for <see cref="P:WordleCloneMAUI.ViewModel.GameViewModel.EnterLetterCommand"/>.</summary>
         </member>
         <member name="P:WordleCloneMAUI.ViewModel.GameViewModel.EnterLetterCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:WordleCloneMAUI.ViewModel.GameViewModel.EnterLetter(System.Char)"/>.</summary>
+        </member>
+        <member name="T:WordleCloneMAUI.ViewModel.KeyboardLetter">
+            <inheritdoc/>
+        </member>
+        <member name="P:WordleCloneMAUI.ViewModel.KeyboardLetter.Color">
+            <inheritdoc cref="F:WordleCloneMAUI.ViewModel.KeyboardLetter.color"/>
         </member>
         <member name="T:WordleCloneMAUI.Resource">
             <summary>

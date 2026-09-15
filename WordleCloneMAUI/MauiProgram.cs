@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Microsoft.Maui.LifecycleEvents;
 using WordleCloneMAUI.Services;
 using WordleCloneMAUI.ViewModel;
 
@@ -16,7 +17,7 @@ namespace WordleCloneMAUI
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
-
+                
             builder.Services.AddTransient<GameViewModel>();
             builder.Services.AddTransient<MainPage>();
             builder.Services.AddHttpClient<DictionaryService>();

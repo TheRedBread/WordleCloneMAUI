@@ -3,59 +3,20 @@
   "WorkspaceRootPath": "D:\\programming\\source\\repos\\WordleCloneMAUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\viewmodel\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\viewmodel\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\services\\dictionaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\services\\dictionaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\viewmodel\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\viewmodel\\gameviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\models\\wordrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\models\\wordrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\wordleclonemaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\wordleclonemaui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\RedBread\\AppData\\Local\\Temp\\.vsdbgsrc\\ea656824fd558b74dcec59607eeea119b72254fc03f30bc966510c881bfec4fc\\MainPage.xaml.xsg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\resources\\styles\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|d:\\programming\\source\\repos\\wordleclonemaui\\wordleclonemaui\\services\\dictionaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A54E5DCE-6F3C-4EE3-1EB9-E0D51941C2E3}|WordleCloneMAUI\\WordleCloneMAUI.csproj|solutionrelative:wordleclonemaui\\services\\dictionaryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -65,76 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DictionaryService.cs",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Services\\DictionaryService.cs",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\Services\\DictionaryService.cs",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Services\\DictionaryService.cs",
-              "RelativeToolTip": "WordleCloneMAUI\\Services\\DictionaryService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA6wBwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T09:58:43.818Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MainPage.xaml.cs",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\MainPage.xaml.cs",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\MainPage.xaml.cs",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\MainPage.xaml.cs",
-              "RelativeToolTip": "WordleCloneMAUI\\MainPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T08:01:34.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\App.xaml.cs",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\App.xaml.cs",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\App.xaml.cs",
-              "RelativeToolTip": "WordleCloneMAUI\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T07:59:46.582Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\App.xaml",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\App.xaml",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\App.xaml",
-              "RelativeToolTip": "WordleCloneMAUI\\App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-15T07:59:45.461Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\AppShell.xaml",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\AppShell.xaml",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\AppShell.xaml",
-              "RelativeToolTip": "WordleCloneMAUI\\AppShell.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-15T07:46:43.856Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -144,111 +40,48 @@
               "RelativeDocumentMoniker": "WordleCloneMAUI\\MauiProgram.cs",
               "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\MauiProgram.cs",
               "RelativeToolTip": "WordleCloneMAUI\\MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T07:39:33.289Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainPage.xaml",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\MainPage.xaml",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\MainPage.xaml",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\MainPage.xaml",
-              "RelativeToolTip": "WordleCloneMAUI\\MainPage.xaml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwEMAAACQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-15T07:39:25.003Z",
+              "WhenOpened": "2026-09-15T10:49:13.289Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "WordleCloneMAUI\\MainPage.xaml.cs",
+              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\MainPage.xaml.cs",
+              "RelativeToolTip": "WordleCloneMAUI\\MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T10:47:42.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DictionaryService.cs",
+              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Services\\DictionaryService.cs",
+              "RelativeDocumentMoniker": "WordleCloneMAUI\\Services\\DictionaryService.cs",
+              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Services\\DictionaryService.cs",
+              "RelativeToolTip": "WordleCloneMAUI\\Services\\DictionaryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T10:44:09.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameViewModel.cs",
               "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\ViewModel\\GameViewModel.cs",
               "RelativeDocumentMoniker": "WordleCloneMAUI\\ViewModel\\GameViewModel.cs",
               "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\ViewModel\\GameViewModel.cs",
               "RelativeToolTip": "WordleCloneMAUI\\ViewModel\\GameViewModel.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAgwEAAAACDAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwC4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T07:29:02.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "WordRow.cs",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Models\\WordRow.cs",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\Models\\WordRow.cs",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Models\\WordRow.cs",
-              "RelativeToolTip": "WordleCloneMAUI\\Models\\WordRow.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwDQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T06:50:54.72Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WordleCloneMAUI.csproj",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\WordleCloneMAUI.csproj",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\WordleCloneMAUI.csproj",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\WordleCloneMAUI.csproj",
-              "RelativeToolTip": "WordleCloneMAUI\\WordleCloneMAUI.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-09-15T07:08:11.444Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Styles.xaml",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Resources\\Styles\\Styles.xaml",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\Resources\\Styles\\Styles.xaml",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Resources\\Styles\\Styles.xaml",
-              "RelativeToolTip": "WordleCloneMAUI\\Resources\\Styles\\Styles.xaml",
-              "ViewState": "AgIAAKkAAAAAAAAAAAAgwMUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-15T08:14:30.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Colors.xaml",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Resources\\Styles\\Colors.xaml",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\Resources\\Styles\\Colors.xaml",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\Resources\\Styles\\Colors.xaml",
-              "RelativeToolTip": "WordleCloneMAUI\\Resources\\Styles\\Colors.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-09-15T08:13:55.922Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MainPage.xaml.xsg.cs",
-              "DocumentMoniker": "C:\\Users\\RedBread\\AppData\\Local\\Temp\\.vsdbgsrc\\ea656824fd558b74dcec59607eeea119b72254fc03f30bc966510c881bfec4fc\\MainPage.xaml.xsg.cs",
-              "ToolTip": "C:\\Users\\RedBread\\AppData\\Local\\Temp\\.vsdbgsrc\\ea656824fd558b74dcec59607eeea119b72254fc03f30bc966510c881bfec4fc\\MainPage.xaml.xsg.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAAwH4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T08:27:14.597Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AppShell.xaml.cs",
-              "DocumentMoniker": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\AppShell.xaml.cs",
-              "RelativeDocumentMoniker": "WordleCloneMAUI\\AppShell.xaml.cs",
-              "ToolTip": "D:\\programming\\source\\repos\\WordleCloneMAUI\\WordleCloneMAUI\\AppShell.xaml.cs",
-              "RelativeToolTip": "WordleCloneMAUI\\AppShell.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-15T08:00:30.371Z",
+              "WhenOpened": "2026-09-15T10:43:49.097Z",
               "EditorCaption": ""
             }
           ]

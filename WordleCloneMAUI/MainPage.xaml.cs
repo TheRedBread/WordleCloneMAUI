@@ -9,6 +9,8 @@ namespace WordleCloneMAUI
         {
             InitializeComponent();
             BindingContext = viewModel;
+            
+            _ = viewModel.SetRandomWord();
         }
     }
 }

@@ -34,12 +34,17 @@ public partial class GameViewModel : ObservableObject
             new WordRow(dictionaryService)
         };
 
-        correctAnwser = "BAGEL".ToCharArray();
         KeyboardRow1 = "QWERTYUIOP".ToCharArray();
         KeyboardRow2 = "ASDFGHJKL".ToCharArray();
         KeyboardRow3 = "<ZXCVBNM>".ToCharArray();
     }
 
+    public async Task SetRandomWord()
+    {
+        var word = await _dictionaryService.GetRandomFiveLetterWord();
+
+        correctAnwser = word!.ToUpper().ToCharArray();
+    }
 
     [RelayCommand]
     public async Task Enter()
@@ -62,7 +67,7 @@ public partial class GameViewModel : ObservableObject
         }
         else if (rowIndex == 5)
         {
-            await App.Current.MainPage.DisplayAlertAsync("Game over!", $"You are out of turns, the correct word was: {correctAnwser}", "OK");
+            await App.Current.MainPage.DisplayAlertAsync("Game over!", $"You are out of turns, the correct word was: {new string(correctAnwser)}", "OK");
         }
         else
         {

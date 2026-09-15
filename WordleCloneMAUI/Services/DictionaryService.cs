@@ -29,6 +29,13 @@ public class DictionaryService
 
         return result?.Valid ?? false; 
     }
+    public async Task<string?> GetRandomFiveLetterWord()
+    {
+        var words = await _httpClient.GetFromJsonAsync<List<string>>(
+            "https://random-word-api.herokuapp.com/word?number=1&length=5");
+
+        return words?.FirstOrDefault();
+    }
 }
 public class WordCheckResult
 {

@@ -71,3 +71,4 @@ public partial class Letter : ObservableObject
     public Color color;
 }
 
+

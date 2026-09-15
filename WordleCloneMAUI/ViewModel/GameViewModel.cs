@@ -14,9 +14,9 @@ public partial class GameViewModel : ObservableObject
 
     char[] correctAnwser;
 
-    public char[] KeyboardRow1 { get; }
-    public char[] KeyboardRow2 { get; }
-    public char[] KeyboardRow3 { get; }
+    public KeyboardLetter[] KeyboardRow1 { get; }
+    public KeyboardLetter[] KeyboardRow2 { get; }
+    public KeyboardLetter[] KeyboardRow3 { get; }
 
     [ObservableProperty]
     public WordRow[] rows;
@@ -34,9 +34,17 @@ public partial class GameViewModel : ObservableObject
             new WordRow(dictionaryService)
         };
 
-        KeyboardRow1 = "QWERTYUIOP".ToCharArray();
-        KeyboardRow2 = "ASDFGHJKL".ToCharArray();
-        KeyboardRow3 = "<ZXCVBNM>".ToCharArray();
+        KeyboardRow1 = "QWERTYUIOP"
+            .Select(x => new KeyboardLetter { Letter = x })
+            .ToArray();
+
+        KeyboardRow2 = "ASDFGHJKL"
+            .Select(x => new KeyboardLetter { Letter = x })
+            .ToArray();
+
+        KeyboardRow3 = "<ZXCVBNM>"
+            .Select(x => new KeyboardLetter { Letter = x })
+            .ToArray();    
     }
 
     public async Task SetRandomWord()
@@ -59,7 +67,7 @@ public partial class GameViewModel : ObservableObject
             return;
         }
         var correct = Rows[rowIndex].Validate(correctAnwser);
-
+        UpdateKeyboardColors();
         if (correct)
         {
             await App.Current.MainPage.DisplayAlertAsync("You Win!", "Congratulations!", "OK");
@@ -100,5 +108,44 @@ public partial class GameViewModel : ObservableObject
         columnIndex++;
     }
 
+   private void UpdateKeyboardColors()
+    {
+        var keys = KeyboardRow1
+            .Concat(KeyboardRow2)
+            .Concat(KeyboardRow3);
 
+        foreach (var key in keys)
+        {
+            foreach (var row in Rows.Take(rowIndex + 1))
+            {
+                var letter = row.Letters
+                    .FirstOrDefault(x => x.Input == key.Letter);
+
+                if (letter == null)
+                    continue;
+
+                if (letter.Color == Colors.Green)
+                {
+                    key.Color = Colors.Green;
+                    break;
+                }
+
+                if (letter.Color == Colors.DarkGoldenrod)
+                {
+                    key.Color = Colors.DarkGoldenrod;
+                }
+                else if (key.Color != Colors.DarkGoldenrod)
+                {
+                    key.Color = Colors.Black;
+                }
+            }
+        }
+    }
+}
+public partial class KeyboardLetter : ObservableObject
+{
+    public char Letter { get; set; }
+
+    [ObservableProperty]
+    private Color color = Colors.Gray;
 }

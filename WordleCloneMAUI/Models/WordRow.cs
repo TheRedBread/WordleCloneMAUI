@@ -1,10 +1,15 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using System.Net;
+using WordleCloneMAUI.Services;
 
 namespace WordleCloneMAUI.Models;
 public partial class WordRow
 {
-    public WordRow()
+    private readonly DictionaryService _dictionaryService;
+
+    public WordRow(DictionaryService dictionaryService)
     {
+        _dictionaryService = dictionaryService;
         Letters = new Letter[5]
         {
             new Letter(),
@@ -38,6 +43,17 @@ public partial class WordRow
         }
 
         return count == 5; //if every letter is correct then it's true
+    }
+
+    internal async Task<bool> CheckIfWordExist()
+    {
+        string word = "";
+        for (int i = 0; i < Letters.Length; i++)
+        {
+            word += Letters[i].Input;
+
+        }
+        return await _dictionaryService.DoesWordExist(word);
     }
 }
 

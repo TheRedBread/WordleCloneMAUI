@@ -1,10 +1,13 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using WordleCloneMAUI.Models;
+using WordleCloneMAUI.Services;
 
 namespace WordleCloneMAUI.ViewModel;
 public partial class GameViewModel : ObservableObject
 {
+
+    private readonly DictionaryService _dictionaryService;
 
     int rowIndex;
     int columnIndex;
@@ -18,16 +21,17 @@ public partial class GameViewModel : ObservableObject
     [ObservableProperty]
     public WordRow[] rows;
 
-    public GameViewModel()
+    public GameViewModel(DictionaryService dictionaryService)
     {
+        _dictionaryService = dictionaryService;
         rows = new WordRow[6]
         {
-            new WordRow(),
-            new WordRow(),
-            new WordRow(),
-            new WordRow(),
-            new WordRow(),
-            new WordRow()
+            new WordRow(dictionaryService),
+            new WordRow(dictionaryService),
+            new WordRow(dictionaryService),
+            new WordRow(dictionaryService),
+            new WordRow(dictionaryService),
+            new WordRow(dictionaryService)
         };
 
         correctAnwser = "BAGEL".ToCharArray();
@@ -38,20 +42,27 @@ public partial class GameViewModel : ObservableObject
 
 
     [RelayCommand]
-    public void Enter()
+    public async Task Enter()
     {
         if (columnIndex != 5) return; // can't enter a word with less than 5 letters
-        var correct = Rows[rowIndex].Validate(correctAnwser);
+        bool word_exists = await Rows[rowIndex].CheckIfWordExist();
 
-        Console.WriteLine(correct);
-        if (correct)
+        Console.WriteLine(word_exists);
+        if (!word_exists)
         {
-            App.Current.MainPage.DisplayAlertAsync("You Win!", "Congratulations!", "OK");
+            await App.Current.MainPage.DisplayAlertAsync("incorrect word", "Word doesn't exist!", "OK");
             return;
         }
-        if (rowIndex == 5)
+        var correct = Rows[rowIndex].Validate(correctAnwser);
+
+        if (correct)
         {
-            App.Current.MainPage.DisplayAlertAsync("Game over!", "You are out of turns", "OK");
+            await App.Current.MainPage.DisplayAlertAsync("You Win!", "Congratulations!", "OK");
+            return;
+        }
+        else if (rowIndex == 5)
+        {
+            await App.Current.MainPage.DisplayAlertAsync("Game over!", $"You are out of turns, the correct word was: {correctAnwser}", "OK");
         }
         else
         {

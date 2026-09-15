@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using WordleCloneMAUI.Services;
 using WordleCloneMAUI.ViewModel;
 
 namespace WordleCloneMAUI
@@ -18,6 +19,7 @@ namespace WordleCloneMAUI
 
             builder.Services.AddTransient<GameViewModel>();
             builder.Services.AddTransient<MainPage>();
+            builder.Services.AddHttpClient<DictionaryService>();
 #if DEBUG
     		builder.Logging.AddDebug();
 #endif

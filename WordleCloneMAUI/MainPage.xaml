@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WordleCloneMAUI.MainPage"
+             xmlns:viewmodel="clr-namespace:WordleCloneMAUI.ViewModel"
+             xmlns:model="clr-namespace:WordleCloneMAUI.Models"
+             x:DataType="viewmodel:GameViewModel">
+    
+    <Grid RowDefinitions="*, Auto"
+          Padding="10">
+        <!--Gamefield-->
+        <VerticalStackLayout
+            HorizontalOptions="Center"
+           BindableLayout.ItemsSource="{Binding Rows}">
+            <BindableLayout.ItemTemplate>
+                <DataTemplate x:DataType="model:WordRow">
+                    <HorizontalStackLayout
+                        BindableLayout.ItemsSource="{Binding Letters}">
+                        <BindableLayout.ItemTemplate>
+                            <DataTemplate x:DataType="model:Letter">
+                                <Border Style="{DynamicResource LetterFrame}"
+                                        BackgroundColor="{Binding Color}"
+                                        Margin="10">
+                                    <Label Text="{Binding Input}"
+                                           FontSize="Large"/>
+                                </Border>
+                                
+                            </DataTemplate>
+                        </BindableLayout.ItemTemplate>
+                    </HorizontalStackLayout>
+                </DataTemplate>
+            </BindableLayout.ItemTemplate>
+        </VerticalStackLayout>
+        
+        <!--Keyboard-->
+        <VerticalStackLayout Grid.Row="1">
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+                BindableLayout.ItemsSource="{Binding KeyboardRow1}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Null}">
+                        <Button Style="{DynamicResource LetterButton}"
+                                Text="{Binding .}"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:GameViewModel}}, Path=EnterLetterCommand}"
+                                CommandParameter="{Binding .}"/>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+                BindableLayout.ItemsSource="{Binding KeyboardRow2}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Null}">
+                        <Button Style="{DynamicResource LetterButton}"
+                                Text="{Binding .}"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:GameViewModel}}, Path=EnterLetterCommand}"
+                                CommandParameter="{Binding .}"/>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </HorizontalStackLayout>
+            <HorizontalStackLayout
+                HorizontalOptions="Center"
+                BindableLayout.ItemsSource="{Binding KeyboardRow3}">
+                <BindableLayout.ItemTemplate>
+                    <DataTemplate x:DataType="{x:Null}">
+                        <Button Style="{DynamicResource LetterButton}"
+                                Text="{Binding .}"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:GameViewModel}}, Path=EnterLetterCommand}"
+                                CommandParameter="{Binding .}"/>
+                    </DataTemplate>
+                </BindableLayout.ItemTemplate>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+
+
+    </Grid>
+    
+    
+</ContentPage>

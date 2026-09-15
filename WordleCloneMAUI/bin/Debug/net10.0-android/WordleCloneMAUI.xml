@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WordleCloneMAUI</name>
+    </assembly>
+    <members>
+        <member name="T:WordleCloneMAUI.Models.Letter">
+            <inheritdoc/>
+        </member>
+        <member name="P:WordleCloneMAUI.Models.Letter.Input">
+            <inheritdoc cref="F:WordleCloneMAUI.Models.Letter.input"/>
+        </member>
+        <member name="P:WordleCloneMAUI.Models.Letter.Color">
+            <inheritdoc cref="F:WordleCloneMAUI.Models.Letter.color"/>
+        </member>
+        <member name="T:WordleCloneMAUI.ViewModel.GameViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:WordleCloneMAUI.ViewModel.GameViewModel.Rows">
+            <inheritdoc cref="F:WordleCloneMAUI.ViewModel.GameViewModel.rows"/>
+        </member>
+        <member name="F:WordleCloneMAUI.ViewModel.GameViewModel.enterCommand">
+            <summary>The backing field for <see cref="P:WordleCloneMAUI.ViewModel.GameViewModel.EnterCommand"/>.</summary>
+        </member>
+        <member name="P:WordleCloneMAUI.ViewModel.GameViewModel.EnterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:WordleCloneMAUI.ViewModel.GameViewModel.Enter"/>.</summary>
+        </member>
+        <member name="F:WordleCloneMAUI.ViewModel.GameViewModel.enterLetterCommand">
+            <summary>The backing field for <see cref="P:WordleCloneMAUI.ViewModel.GameViewModel.EnterLetterCommand"/>.</summary>
+        </member>
+        <member name="P:WordleCloneMAUI.ViewModel.GameViewModel.EnterLetterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:WordleCloneMAUI.ViewModel.GameViewModel.EnterLetter(System.Char)"/>.</summary>
+        </member>
+        <member name="T:WordleCloneMAUI.Resource">
+            <summary>
+            Android Resource Designer class.
+            Exposes the Android Resource designer assembly into the project Namespace.
+            </summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Input">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Input" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Color">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Color" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Rows">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Rows" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Input">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Input" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Color">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Color" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Rows">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Rows" generated properties.</summary>
+        </member>
+    </members>
+</doc>
